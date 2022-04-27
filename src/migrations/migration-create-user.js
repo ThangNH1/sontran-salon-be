@@ -11,6 +11,9 @@ module.exports = {
       name: {
         type: Sequelize.STRING
       },
+      image: {
+        type: Sequelize.STRING
+      },
       email: {
         type: Sequelize.STRING
       },
@@ -23,10 +26,7 @@ module.exports = {
       address: {
         type: Sequelize.STRING
       },
-      typeRole: {
-        type: Sequelize.STRING
-      },
-      keyRole: {
+      roleID: {
         type: Sequelize.STRING
       },
       createdAt: {
